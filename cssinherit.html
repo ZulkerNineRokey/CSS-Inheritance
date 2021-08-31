@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>inherit</title>
+</head>
+<body>
+  <style>
+span {
+  color: rgb(190, 14, 58);
+  border: 1px solid black;
+}
+
+.new span {
+  color: inherit;
+}
+</style>
+</head>
+<body>
+
+<div>
+  I am <span>a black span element</span> with love.
+</div>
+
+<div class="new" style="color:green">
+  I am <span>a green span element</span> with love.
+</div>
+
+<div style="color:red">
+  I am <span>a red span element</span> with love.
+</div>
+
+</body>
+</html>
